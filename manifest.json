@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Star of David Crosshair",
+    "description": "Bedrock Edition conversion of the Java crosshair pack by @Apfel28.",
+    "uuid": "c20b219c-984d-419b-9523-0a9b4b1fcc50",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "1b2dffef-e3e1-4177-87b1-dca7cbe20086",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "description": "Bedrock Edition conversion of the Java crosshair pack by @Apfel28."
+    }
+  ]
+}

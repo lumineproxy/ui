@@ -1,0 +1,29 @@
+{
+  "namespace": "hud_crosshair",
+  "cursor_renderer": {
+    "type": "image",
+    "texture": "textures/ui/crosshair",
+    "size": [
+      16,
+      16
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 4
+  },
+  "hud_crosshair_screen": {
+    "type": "screen",
+    "render_game_behind": true,
+    "render_only_when_topmost": false,
+    "should_steal_mouse": false,
+    "is_showing_menu": false,
+    "is_modal": false,
+    "absorbs_input": false,
+    "low_frequency_rendering": false,
+    "controls": [
+      {
+        "cursor@hud_crosshair.cursor_renderer": {}
+      }
+    ]
+  }
+}
